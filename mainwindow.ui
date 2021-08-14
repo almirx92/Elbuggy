@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>571</width>
+    <height>296</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Elektricni Buggy</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="ubrzanjeLbl">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>30</y>
+      <width>60</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ubrzanje</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="kocenjeLbl">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>100</y>
+      <width>60</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Kocenje</string>
+    </property>
+   </widget>
+   <widget class="QDial" name="ubrzanjeDial">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>10</y>
+      <width>50</width>
+      <height>64</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDial" name="dialKocenje">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>80</y>
+      <width>50</width>
+      <height>64</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QProgressBar" name="progressBarUbrzanje">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>30</y>
+      <width>191</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="value">
+     <number>24</number>
+    </property>
+   </widget>
+   <widget class="QProgressBar" name="progressBarKocenje">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>100</y>
+      <width>191</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="value">
+     <number>24</number>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="ubrzanjeLcd">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>30</y>
+      <width>64</width>
+      <height>23</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="kocenjeLcd">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>100</y>
+      <width>64</width>
+      <height>23</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="startBtn">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>160</y>
+      <width>113</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Start</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="stopBtn">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>160</y>
+      <width>113</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Stop</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="statusCode">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>210</y>
+      <width>261</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>status Code</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>140</y>
+      <width>231</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Smijer</string>
+    </property>
+    <widget class="QPushButton" name="naprijedBtn">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>20</y>
+       <width>113</width>
+       <height>32</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Naprijed</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="nazadBtn">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>20</y>
+       <width>121</width>
+       <height>32</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Nazad</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="zaustaviBtn">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>60</y>
+       <width>231</width>
+       <height>32</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Zaustavi</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>571</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
