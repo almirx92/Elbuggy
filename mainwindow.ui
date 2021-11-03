@@ -116,7 +116,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Start</string>
+     <string>ON</string>
     </property>
    </widget>
    <widget class="QPushButton" name="stopBtn">
@@ -129,7 +129,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Stop</string>
+     <string>OFF</string>
     </property>
    </widget>
    <widget class="QLabel" name="statusCode">
